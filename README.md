@@ -1,17 +1,15 @@
-# meus_livros
+# Meus Livros
 
-A new Flutter project.
+Catálogo pessoal de livros em Flutter (Desenvolvimento Mobile I).
+Lista com estado vazio, detalhe, formulário com validação, criação e edição em memória.
 
-## Getting Started
+## Como reproduzir
+git clone https://github.com/Niltix-py/trabalho-flutter.git
+cd trabalho-flutter
+flutter create . --project-name meus_livros --platforms=android
+flutter pub get
+flutter analyze
+flutter test
+flutter build apk --release
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Verificado com Flutter 3.47.6 / Dart 3.13.5.
